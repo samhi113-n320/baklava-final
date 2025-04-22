@@ -47,7 +47,7 @@ List color palette used and rationale for top level layout decisions. Outline Da
 
 ### Members & Responsibilities
 
-President - 
-Designer - 
-Analyst - Allen Fudge
-Scrum Master - 
+- President - 
+- Designer - 
+- Analyst - Allen Fudge
+- Scrum Master - 
