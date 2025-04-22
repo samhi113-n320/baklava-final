@@ -29,7 +29,7 @@ Brief description of your what your project is about and why you chose that topi
 
 List core webpages and briefly describe the page of them
 
-##### Norse Mythology Page
+#### Norse Mythology Page
 
 This page will contain general information about the Norse mythology. This will include:
  - Estimated time and place of origin
