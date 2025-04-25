@@ -1,0 +1,27 @@
+{
+  "name": "baklava-final",
+  "version": "1.0.0",
+  "description": "Our project is a website about the general information of three different mythologies. We chose the theme of mythologies because it was the one that we all felt most familiar with. We all suggested different mythologies, so we decided for everyone to do the mythology that they suggested. This will result in each member of the group creating a webpage based on their chosen mythology: Greek, Norse, and Native Legends.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "set PORT=3008 && nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samhi113-n320/baklava-final.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samhi113-n320/baklava-final/issues"
+  },
+  "homepage": "https://github.com/samhi113-n320/baklava-final#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
+  "dependencies": {
+    "mime-types": "^3.0.1"
+  }
+}
