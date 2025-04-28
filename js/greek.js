@@ -15,25 +15,19 @@ document.addEventListener("DOMContentLoaded", () => {
         persephone: "The Myth of Persephone explains the changing seasons. Persephone is taken to the underworld by Hades, causing her mother Demeter to grieve."
     };
 
-    // Add event listeners for characters
-    const characterList = document.querySelector("#greekCharacters ul");
-    const characterInfo = document.getElementById("character-info");
-
-    characterList.addEventListener("click", (event) => {
-        const id = event.target.closest("li")?.dataset.id;
-        if (id && characterDetails[id]) {
+    // Function to show character info
+    window.showCharacterInfo = (id) => {
+        const characterInfo = document.getElementById("character-info");
+        if (characterDetails[id]) {
             characterInfo.innerHTML = `<p>${characterDetails[id]}</p>`;
         }
-    });
+    };
 
-    // Add event listeners for myths
-    const mythList = document.querySelector("#greekMyths ol");
-    const mythInfo = document.getElementById("myth-info");
-
-    mythList.addEventListener("click", (event) => {
-        const id = event.target.closest("li")?.dataset.id;
-        if (id && mythDetails[id]) {
+    // Function to show myth info
+    window.showMythInfo = (id) => {
+        const mythInfo = document.getElementById("myth-info");
+        if (mythDetails[id]) {
             mythInfo.innerHTML = `<p>${mythDetails[id]}</p>`;
         }
-    });
+    };
 });
