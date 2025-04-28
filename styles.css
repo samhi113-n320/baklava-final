@@ -1,0 +1,19 @@
+/* Our color pallete consisted of #443311, #ffaa44, #ddaa77, and just a hint of css's standard lightgreen, #90ee90. These colors resemble the golden, flaky brilliance of baklava's bread with the hint of pistachio to top it off. */
+
+body {
+    background-color: #ddaa77;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1,h2,h3 {
+    background-color: #ffaa44;
+}
+
+nav {
+    text-decoration-color: #90ee90;
+    color: #90ee90;
+}
+
+nav:hover {
+    background-color: #ddaa77;
+}
