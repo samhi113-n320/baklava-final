@@ -54,7 +54,9 @@ Intractability:
  - Any addition information about the mythology 
 
  Intractability:
-- 
+- Buttons under each section that provide summarized information on the following topics:
+   - Characters
+   - Stories
 
 ### Design Choices
 
