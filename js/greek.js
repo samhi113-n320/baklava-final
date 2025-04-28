@@ -1,5 +1,5 @@
 // Test to see if greek.js is loaded
-console.log("Greek.js loaded");
+console.log("Greek.js loaded successfully");
 
 // Data for characters
 const characterDetails = {
