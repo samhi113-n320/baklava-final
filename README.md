@@ -2,7 +2,7 @@
 
 ### Project Summary
 
-Our project is a website about the general information of three different mythologies. We chose the theme of mythologies because it was the one that we all felt most familiar with. We all suggested different mythologies, so we decided for everyone to do the mythology that they suggested. This will result in each member of the group creating a webpage based on their chosen mythology: Greek, Norse, and Native Legends.
+Our project is a website about the general information of three different mythologies. We chose the theme of mythologies because it was the one that we all felt most familiar with. We all suggested different mythologies, so we decided for everyone to do the mythology that they suggested. This will result in each member of the group creating a webpage based on their chosen mythology: **Greek**, **Norse**, and **Native American** legends.
 
 ### Live Link
 
