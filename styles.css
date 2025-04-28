@@ -65,6 +65,20 @@ nav:hover {
     margin-bottom: 5px;
 }
 
+#character-info, #myth-info {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #ffaa44;
+    color: #443311;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+#character-info p, #myth-info p {
+    margin: 0;
+    font-size: 1rem;
+}
+
 /* Footer (if needed) */
 footer {
     text-align: center;
