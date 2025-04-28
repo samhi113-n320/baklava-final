@@ -58,7 +58,7 @@ Intractability:
 
 ### Design Choices
 
-Our color pallete consisted of #443311, #ffaa44, #ddaa77, and just a hint of css's standard lightgreen, #90ee90. These colors resemble the golden, flaky brilliance of baklava's bread with the hint of pistachio to top it off.
+Our color palette consisted of #443311, #ffaa44, #ddaa77, and just a hint of css's standard lightgreen, #90ee90. These colors resemble the golden, flaky brilliance of baklava's bread with the hint of pistachio to top it off.
 
 ### Members & Responsibilities
 
