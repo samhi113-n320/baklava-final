@@ -5,7 +5,7 @@ class WebFile {
   static mimeTypes = {
     ".html": "text/html",
     ".css": "text/css",
-    ".js": "text/javascript",
+    ".js": "application/javascript",
     ".json": "application/json",
     ".png": "image/png",
     ".jpeg": "image/jpeg",
