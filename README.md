@@ -45,13 +45,26 @@ Intractability:
  - Possible quiz (This may be its own webpage)
  - Videos and image galleries
 
+### Greek Mythology Page
+
+#### This page will contain general information about Greek mythology. This will include:
+ - Estimated time and location of myth's origins
+ - Main characters and locations within the mythology
+ - Some major events in the mythology
+ - Any addition information about the mythology 
+
+#### Intractability:
+- Buttons under each section that provide summarized information on the following topics:
+   - Characters
+   - Stories
+
 ### Design Choices
 
 Our color pallete consisted of #443311, #ffaa44, #ddaa77, and just a hint of css's standard lightgreen, #90ee90. These colors resemble the golden, flaky brilliance of baklava's bread with the hint of pistachio to top it off.
 
 ### Members & Responsibilities
 
-- President - 
-- Designer - 
+- President - Sam Higgins
+- Designer - Sam Higgins
 - Analyst - Allen Fudge
-- Scrum Master - 
+- Scrum Master - Austin Cohen

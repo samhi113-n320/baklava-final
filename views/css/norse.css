@@ -1,19 +1,24 @@
 h1 {
     padding: 30px;
     background-color: #431;
+    color: white;
 }
 
 h2 {
     margin-bottom: 6px;
+    color: white;
+    padding-left: 12px;
 }
 
 h4 {
     margin-bottom: 6px;
     padding-left: 36px;
+    color: white;
 }
 
 p {
     padding-left: 48px;
+    color: white;
 }
 
 #figures p {

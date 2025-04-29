@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #da7;
+      }
+
+      .cls-2 {
+        fill: #fa4;
+      }
+
+      .cls-3 {
+        fill: #ea6;
+      }
+
+      .cls-4 {
+        fill: #ea5;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <polygon class="cls-1" points="400 125 200 100 0 125 0 0 200 0 400 0 400 125"/>
+    <polygon class="cls-3" points="400 225 200 175 0 225 0 125 200 75 400 125 400 225"/>
+    <polygon class="cls-4" points="400 325 200 275 0 325 0 225 200 175 400 225 400 325"/>
+    <polygon class="cls-2" points="400 400 0 400 0 325 200 275 400 325 400 400"/>
+  </g>
+</svg>

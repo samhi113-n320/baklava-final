@@ -3,7 +3,6 @@ const mime = require("mime-types");
 
 class WebFile {
   filename = "";
-  
   constructor(filename) {
     this.filename = filename;
   }
