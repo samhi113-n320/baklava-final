@@ -64,7 +64,7 @@ Our color pallete consisted of #443311, #ffaa44, #ddaa77, and just a hint of css
 
 ### Members & Responsibilities
 
-- President - Sam
-- Designer - Sam
+- President - Sam Higgins
+- Designer - Sam Higgins
 - Analyst - Allen Fudge
-- Scrum Master - Austin
+- Scrum Master - Austin Cohen

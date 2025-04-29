@@ -3,7 +3,6 @@ const mime = require("mime-types");
 
 class WebFile {
   filename = "";
-  
   constructor(filename) {
     this.filename = filename;
   }
@@ -12,7 +11,7 @@ class WebFile {
   }
   getMimeType() {
     const fileExtension = this.getExtension();
-    return mime.lookup(fileExtension) || "text/plain";  
+    return mime.lookup(fileExtension) || "text/plain";
   }
 }
 
