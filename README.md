@@ -2,7 +2,7 @@
 
 ### Project Summary
 
-Our project is a website about the general information of three different mythologies. We chose the theme of mythologies because it was the one that we all felt most familiar with. We all suggested different mythologies, so we decided for everyone to do the mythology that they suggested. This will result in each member of the group creating a webpage based on their chosen mythology: Greek, Norse, and Native Legends.
+Our project is a website that provides general information about three different mythologies. We chose the theme of mythologies because it was the one that we all felt most familiar with. We all suggested different mythologies, so we decided that everyone would do the mythology they suggested. This will result in each member of the group creating a webpage based on their chosen mythology: Greek, Norse, and Native American legends.
 
 ### Live Link
 
@@ -11,7 +11,7 @@ Our project is a website about the general information of three different mythol
 ### Key Takeaways
 
 - Building a Web Server with Node.js
-  - Creating a functioning server with the express module
+  - Creating a functioning server with the Express module
   - Serving different content dynamically
   - Uploading the web server to a student's port to host the website
 - Frontend Module Implementation
@@ -19,7 +19,7 @@ Our project is a website about the general information of three different mythol
     - Using these files to include interactive tools to help make the website more engaging
 - Understanding Basic Research
   - Researching the different mythologies to fill out the content of the page
-- Possible OOP with Javascript
+- Possible OOP with JavaScript
   - Using OOP to design and develop certain interactive features of the website
   - Possible use of subclass implementation to customize aspects of a webpage depending on the mythology
 - Collaboration and Teamwork
@@ -35,17 +35,31 @@ This page will contain information about what the website's purpose is and what 
 
 #### Norse Mythology Page
 
-This page will contain general information about the Norse mythology. This will include:
+This page will contain general information about Norse mythology. This will include:
 
 - Estimated time and place of origin
 - Main figures and locations within the mythology
 - Main events of the mythology
 - Any additional key information about the mythology
 
-Intractability:
+##### Intractability:
 
 - Possible quiz (This may be its own webpage)
 - Videos and image galleries
+
+#### Greek Mythology Page
+
+This page will contain general information about Greek mythology. This will include:
+
+ - Estimated time and location of the myth's origins
+ - Main characters and locations within the mythology
+ - Some major events in the mythology
+ - Any additional information about the mythology 
+
+##### Intractability:
+- Buttons under each section that provide summarized information on the following topics:
+   - Characters
+   - Stories
 
 ### Design Choices
 
@@ -56,4 +70,4 @@ Our color pallete consisted of #443311, #ffaa44, #ddaa77, and just a hint of css
 - President - Sam Higgins
 - Designer - Sam Higgins
 - Analyst - Allen Fudge
-- Scrum Master -
+- Scrum Master - Austin Cohen
