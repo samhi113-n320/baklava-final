@@ -6,7 +6,7 @@ Our project is a website that provides general information about three different
 
 ### Live Link
 
-[Home Page](https://url.com)
+[Home Page](http://localhost:5445)
 
 ### Key Takeaways
 
