@@ -115,3 +115,21 @@ main {
   width: 100vw;
   padding: 0 5vw;
 }
+
+#hero {
+    width: 100vw;
+    height: 92.5vh;
+  
+    background-color: #431;
+    color: #fff;
+    font-size: calc(10vh + 10vw);
+    font-weight: bold;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #restaurantDiv {
+    text-align: center;
+  }
