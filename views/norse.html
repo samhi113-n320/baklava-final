@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Norse</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/norse.css" />
+</head>
+<body>
+    <nav>
+        <a href="./" class="logo">
+          <svg
+            id="Layer_2"
+            xmlns="http://www.w3.org/2000/svg"
+            version="1.1"
+            viewBox="0 0 67.2 100"
+          >
+            <path
+              class="st0"
+              d="M50,33.3l15.6-20.8c3.9-5.2.2-12.5-6.2-12.5H0v33.3h50Z"
+            />
+            <path
+              class="st1"
+              d="M50,66.7H0v33.3h59.4c6.4,0,10.1-7.3,6.2-12.5l-15.6-20.8h0Z"
+            />
+            <path
+              class="st2"
+              d="M50,33.3H0v33.3h50l-3.1-4.2c-5.6-7.4-5.6-17.6,0-25l3.1-4.2h0Z"
+            />
+          </svg>
+          <h1>BAKLAVA</h1>
+        </a>
+        <ul>
+          <li><a href="./">Home</a></li>
+          <li><a href="./greek">Greek</a></li>
+          <li><a href="./norse">Norse</a></li>
+          <li><a href="./native">Native American</a></li>
+        </ul>
+      </nav>
+    <h1 style="text-align: center;">Norse Mythology</h1>
+    <h2>Brief History</h2>
+    <p>
+        Norse mythology is a body of myths belonging to the North Germanic people that stems from the Old Norse religion. The old Norse religion
+        can be traced back to about 500 BC with it dying out during the second half of the Viking Age, 900 AD to 1050 AD. It was during this 
+        century and a half period that the Vikings began converting to Christianity and the Norse Mythology started to form. The original 
+        mythology was passed down in the form of poetry until the 11th-18th centuries when the Eddas (two Medieval Icelandic literary works) 
+        and other medieval texts were written. This resulted in the Norse mythology being the best-preserved version of the older common Germanic 
+        paganism.
+    </p>
+    <h2>Key Figures</h2>
+    <div id="figures">
+        <h4>Gods:</h4>
+            <p>Odin</p>
+                <ul>
+                    <li>Portrayed as one-eyed and long-bearded</li>
+                    <li>Ruler of the gods</li>
+                    <li>Seeker of knowledge</li>
+                    <li>Tried to prevent fate</li>
+                    <li>Killed by Fenrir, which was a prophesied fate</li>
+                </ul>
+            <p>Thor</p>
+                <ul>
+                    <li>Originally described with red hair, however, there are no original depictions</li>
+                    <li>God of thunder</li>
+                    <li>Wielded the hammer known as Mjölnir</li>
+                    <li>Had the bad habit of overindulging in food and alcohol</li>
+                    <li>Slayed the monstrous serpent, Jörmungandr, took nine steps, then died to the serpents's venom</li>
+                </ul>
+            <p>Loki</p>
+                <ul>
+                    <li>A shape-shifting god that constantly changes his appearance</li>
+                    <li>The god of trickery</li>
+                    <li>Was friendly with the gods until he engineered the death of Baldr</li>
+                    <li>Was bound to a rock by the entrails of one of his sons</li>
+                    <li>At the start of Ragnarök, Loki and Heimdallr, guardian god of Asgard (home of the gods), slay each other</li>
+                </ul>
+            <p>Váli</p>
+                <ul>
+                    <li>Born with the sole purpose of avenging his brother, Baldr</li>
+                    <li>Grew to adult hood within one day of birth</li>
+                    <li>Slayed Baldr's killer, Höðr who was the blind son of Odin and tricked by Loki</li>
+                    <li>One of few to be prophesied to survive Ragnarök</li>
+                </ul>
+        <h4>Beasts:</h4>
+            <p>Fenrir</p>
+                <ul>
+                    <li>A large wolf and son of Loki</li>
+                    <li>Was bound by invisible bindings due to prophesies</li>
+                    <li>Father of the two wolves Sköll and Hati Hróðvitnisson, who relentless chase the sun and moon respectively</li>
+                    <li>Breaks free of his binds and assists in setting the world aflame and kill Odin during Ragnarök</li>
+                    <li>Slain by one of Odin's son's Viðarr</li>
+                </ul>
+            <p>Jörmungandr</p>
+                <ul>
+                    <li>The World Serpent and son of Loki</li>
+                    <li>Was taken by Odin and tossed into the great ocean that encircles Midgard (Earth)</li>
+                    <li>Grew so large that he was able to surround Midgard and grasp his own tail</li>
+                    <li>Archenemy of Thor, who he later engaged in battle with, resulting in both of their deaths</li>
+                </ul>
+    </div>
+    <h2>Ragnarök</h2>
+    <p>
+        Ragnarök is the largest and most important event in the Norse mythology. Ragnarök was a prophesied series of impending events, including 
+        a great battle that takes place during the entirety of Ragnarök. In this battle the vast majority of mythological figures, including most 
+        of the gods, die. In addition to the great battle, there are also a series of catastrophic natural disasters, including the burning of 
+        the world, and culminate in the submersion of the world underwater. After these events, the world rises again, cleansed and fertile. The 
+        surviving gods will meet with the gods who return (most notably, Baldr and Höðr). The Earth is repopulated by the two human survivors, Líf 
+        and Lífþrasir, who survived by hiding in a wood called Hoddmímis holt.
+    </p>
+    <div class="full-img" id="fullImgBox">
+        <img src="images/norseImages/image1.jpg" id="fullImg">
+        <span onclick="closeFullImg()">X</span>
+    </div>
+    <div class="img-gallery">
+        <span onclick="moveLeft()">&lt</span>
+        <div>
+            <img src="images/norseImages/image1.jpg" onclick="openFullImg(this.src)" id="img1">
+            <p style="text-align: center; padding-right: 50px;" id="imgText1">Líf and Lífþrasir</p>
+        </div>
+        <div>
+            <img src="images/norseImages/image2.jpg" onclick="openFullImg(this.src)" id="img2">
+            <p style="text-align: center; padding-right: 50px;" id="imgText2">Jörmungandr</p>
+        </div>
+        <div>
+            <img src="images/norseImages/image3.jpg" onclick="openFullImg(this.src)" id="img3">
+            <p style="text-align: center; padding-right: 50px;" id="imgText3">Odin</p>
+        </div>
+        <span style="margin-left: 200px;" onclick="moveRight()">&gt</span>
+    </div>
+
+    <script src="js/norse.js"></script>
+</body>
+</html>
