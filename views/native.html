@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Native Legend - Baklava</title>
     <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/samStyles.css" />
   </head>
   <body>
     <nav>
@@ -52,28 +53,33 @@
       </p>
 
       <h3>Apache Characters</h3>
-      <ul>
+      <ul id="nativeList">
         <li>
-          <a href="https://www.sacred-texts.com/nam/pla/jat/jat53.htm">
-            Owl, a provider and wise mentor.
+          <a href="#storyTitle" id="owlBtn" class="nativeBtn">
+            <p>Owl, a provider and wise mentor.</p>
           </a>
         </li>
         <li>
-          <a href="https://www.sacred-texts.com/nam/pla/jat/jat50.htm">
-            Woodpecker, a humble and grateful worker.
+          <a href="#storyTitle" id="woodpeckerBtn" class="nativeBtn">
+            <p>Woodpecker, a humble and grateful worker.</p>
           </a>
         </li>
         <li>
-          <a href="https://www.sacred-texts.com/nam/pla/jat/jat17.htm">
-            Coyote, a deceiving and quick trickster.
+          <a href="#storyTitle" id="coyoteBtn" class="nativeBtn">
+            <p>Coyote, a deceiving and quick trickster.</p>
           </a>
         </li>
         <li>
-          <a href="https://www.sacred-texts.com/nam/pla/jat/jat47.htm">
-            Mole, a smart and friendly trickster.
+          <a href="#storyTitle" id="moleBtn" class="nativeBtn">
+            <p>Mole, a wise and friendly trickster.</p>
           </a>
         </li>
       </ul>
+
+      <h3>Click on a character above and read a tale below!</h3>
+      <h2 id="storyTitle"></h2>
+      <p id="storyText"></p>
     </main>
+    <script src="js/native.js"></script>
   </body>
 </html>
