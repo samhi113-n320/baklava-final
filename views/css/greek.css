@@ -1,90 +1,67 @@
-/* General Styles */
-body {
-    background-color: #ddaa77;
-    font-family: 'Courier New', Courier, monospace;
-    margin: 0;
-    padding: 0;
-    color: #443311;
-}
-
-h1, h2, h3 {
-    background-color: #ffaa44;
-    color: #443311;
-    padding: 10px;
-    margin: 0;
-    border-radius: 5px;
+h2,
+h3 {
+  background-color: #ffaa44;
+  color: #443311;
+  padding: 10px;
+  margin: 0;
+  border-radius: 5px;
 }
 
 a {
-    text-decoration: none;
-    color: #90ee90;
+  text-decoration: none;
+  color: #90ee90;
 }
 
 a:hover {
-    text-decoration: underline;
-}
-
-/* Navigation Bar */
-nav {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: #443311;
-    padding: 10px;
-    border-radius: 5px;
-}
-
-nav a {
-    font-weight: bold;
-    color: #90ee90;
-}
-
-nav:hover {
-    background-color: #ddaa77;
+  text-decoration: underline;
 }
 
 /* Content Section */
 .content {
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    margin: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin: 20px;
 }
 
-.content h2, .content h3 {
-    margin-top: 20px;
+.content h2,
+.content h3 {
+  margin-top: 20px;
 }
 
-.content ul, .content ol {
-    margin: 10px 0;
-    padding-left: 20px;
+.content ul,
+.content ol {
+  margin: 10px 0;
+  padding-left: 20px;
 }
 
 .content li {
-    margin-bottom: 5px;
+  margin-bottom: 5px;
 }
 
-#character-info, #myth-info {
-    margin-top: 10px;
-    padding: 10px;
-    background-color: #ffaa44;
-    color: #443311;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+#character-info,
+#myth-info {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #ffaa44;
+  color: #443311;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
-#character-info p, #myth-info p {
-    margin: 0;
-    font-size: 1rem;
+#character-info p,
+#myth-info p {
+  margin: 0;
+  font-size: 1rem;
 }
 
 /* Footer (if needed) */
 footer {
-    text-align: center;
-    padding: 10px;
-    background-color: #443311;
-    color: #fff;
-    margin-top: 20px;
-    border-radius: 5px;
+  text-align: center;
+  padding: 10px;
+  background-color: #443311;
+  color: #fff;
+  margin-top: 20px;
+  border-radius: 5px;
 }
