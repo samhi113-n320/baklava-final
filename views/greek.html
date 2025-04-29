@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/greek.css">
+    <title>Greek Mythology</title>
+</head>
+<body>
+
+    <div class="header">
+        <h1>
+            Greek Mythology
+        </h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="greek.html">Greek</a>
+            <a href="norse.html">Norse</a>
+            <a href="native.html">Native</a>
+        </nav>
+    </div>
+    
+    <div class="content">
+        <section class="introduction">
+            <h2>Introduction to Greek Mythology</h2>
+            <p>
+                Greek mythology is the body of myths originally told by the ancient Greeks, and a genre of Ancient Greek folklore. These stories concern the origin and nature of the world, the lives and activities of deities, heroes, and mythological creatures, and the origins and significance of the ancient Greeks' own cult and ritual practices.
+            </p>
+        </section>
+
+        <section id="greekCharacters">
+            <h3>Key Figures</h3>
+            <ul>
+                <li><button onclick="showCharacterInfo('zeus')">Zeus</button></li>
+                <li><button onclick="showCharacterInfo('hera')">Hera</button></li>
+                <li><button onclick="showCharacterInfo('athena')">Athena</button></li>
+                <li><button onclick="showCharacterInfo('poseidon')">Poseidon</button></li>
+            </ul>
+            <div id="character-info"></div>
+        </section>
+
+        <section id="greekMyths">
+            <h3>Famous Myths</h3>
+            <ul>
+                <li><button onclick="showMythInfo('heracles')">The Twelve Labors of Heracles</button></li>
+                <li><button onclick="showMythInfo('odyssey')">The Odyssey</button></li>
+                <li><button onclick="showMythInfo('iliad')">The Iliad</button></li>
+                <li><button onclick="showMythInfo('persephone')">The Myth of Persephone</button></li>
+            </ul>
+            <div id="myth-info"></div>
+        </section>
+    </div> 
+    
+
+    <script src="../js/greek.js"></script>
+</body>
+</html>
