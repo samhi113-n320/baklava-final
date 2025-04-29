@@ -11,7 +11,7 @@ class WebFile {
   }
   getMimeType() {
     const fileExtension = this.getExtension();
-    return mime.lookup(fileExtension) || "text/plain";
+    return mime.lookup(fileExtension) || "text/plain";  
   }
 }
 
