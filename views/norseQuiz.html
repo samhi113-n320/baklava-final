@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Norse Quiz</title>
+    <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+    <nav>
+        <a href="./" class="logo">
+          <svg
+            id="Layer_2"
+            xmlns="http://www.w3.org/2000/svg"
+            version="1.1"
+            viewBox="0 0 67.2 100"
+          >
+            <path
+              class="st0"
+              d="M50,33.3l15.6-20.8c3.9-5.2.2-12.5-6.2-12.5H0v33.3h50Z"
+            />
+            <path
+              class="st1"
+              d="M50,66.7H0v33.3h59.4c6.4,0,10.1-7.3,6.2-12.5l-15.6-20.8h0Z"
+            />
+            <path
+              class="st2"
+              d="M50,33.3H0v33.3h50l-3.1-4.2c-5.6-7.4-5.6-17.6,0-25l3.1-4.2h0Z"
+            />
+          </svg>
+          <h1>BAKLAVA</h1>
+        </a>
+        <ul>
+          <li><a href="./">Home</a></li>
+          <li><a href="./greek">Greek</a></li>
+          <li><a href="./norse">Norse</a></li>
+          <li><a href="./native">Native American</a></li>
+        </ul>
+    </nav>
+
+    <h2>The Norse Quiz</h2>
+    <h3>For this quiz, you will answer 5 multiple choice questions about the content found on the <a href="./norse" style="color:white;">Norse Page</a>.</h3>
+    <p>Question 1: Who was the god that tried to prevent fate?</p>
+        <div style="margin-left: 104px;">
+            <input type="radio" id="nAnswer1" name="question1" value="a1"><label for="a1">Odin</label>
+            <input type="radio" id="nAnswer2" name="question1" value="a2"><label for="a2">Thor</label>
+            <input type="radio" id="nAnswer3" name="question1" value="a3"><label for="a3">Loki</label>
+            <input type="radio" id="nAnswer4" name="question1" value="a4"><label for="a4">Váli</label>
+        </div>
+    <br>
+    <p>Question 2: What happened to Thor after he slayed Jörmungandr?</p>
+        <div style="margin-left: 104px;">
+            <input type="radio" id="nAnswer5" name="question2" value="a5"><label for="a5">He instantly died</label>
+            <input type="radio" id="nAnswer6" name="question2" value="a6"><label for="a6">Continued fighting in Ragnarök</label>
+            <input type="radio" id="nAnswer7" name="question2" value="a7"><label for="a7">He was later killed by the Jötnar</label>
+            <input type="radio" id="nAnswer8" name="question2" value="a8"><label for="a8">He took nine steps and died</label>
+        </div>
+    <br>
+    <p>Question 3: Why was Fenrir bound?</p>
+        <div style="margin-left: 104px;">
+            <input type="radio" id="nAnswer9" name="question3" value="a9"><label for="a9">Odin hated wolves</label>
+            <input type="radio" id="nAnswer10" name="question3" value="a10"><label for="a10">He was the spawn of Loki</label>
+            <input type="radio" id="nAnswer11" name="question3" value="a11"><label for="a11">Prophesies</label>
+            <input type="radio" id="nAnswer12" name="question3" value="a12"><label for="a12">He bit off Tyr's hand</label>
+        </div>
+    <br>
+    <p>Question 4: Who killed Loki?</p>
+        <div style="margin-left: 104px;">
+            <input type="radio" id="nAnswer13" name="question4" value="a13"><label for="a13">Váli</label>
+            <input type="radio" id="nAnswer14" name="question4" value="a14"><label for="a14">Fenrir</label>
+            <input type="radio" id="nAnswer15" name="question4" value="a15"><label for="a15">Thor</label>
+            <input type="radio" id="nAnswer16" name="question4" value="a16"><label for="a16">Heimdallr</label>
+        </div>
+    <br>
+    <p>Question 5: What was the event that was a series of catastrophic disasters and battles that resulted in the death of many gods and the destruction and rebirth of the Earth?</p>
+        <div style="margin-left: 104px;">
+            <input type="radio" id="nAnswer17" name="question5" value="a17"><label for="a17">Eddas</label>
+            <input type="radio" id="nAnswer18" name="question5" value="a18"><label for="a18">Ragnarök</label>
+            <input type="radio" id="nAnswer19" name="question5" value="a19"><label for="a19">Christianity</label>
+            <input type="radio" id="nAnswer20" name="question5" value="a20"><label for="a20">Yggdrasil</label>
+        </div>
+    <br/>
+    <p>Name: <input id="nameInput"></input></p>
+    <br/>
+    <button id="submitButton" type="button" style="margin-left: 48px;">Submit Answers</button>
+    <br/>
+    <p><input type="button" id="generateButton" value="View Certificate" hidden>           </input><input type="button" id="downloadButton" value="Download Certificate" hidden></input></p>
+
+    <section>
+        <iframe id="certPreview" src="" frameborder="0" width="1200" height="450px" style="margin-left: 108px;"></iframe>
+    </section>
+
+    <script src="js/norseQuiz.js" type="module"></script>
+</body>
+</html>
