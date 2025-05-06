@@ -268,18 +268,20 @@ main {
   cursor: pointer;
 }
 
-#nativeList,
-#nativeList li {
+#nativeList {
   width: 100%;
 
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-evenly;
   list-style-type: none;
 }
 
 .nativeBtn {
-  width: 20vw;
-  height: 20vw;
+  width: calc(10vw + 20vh);
+  height: calc(10vw + 20vh);
+  margin: calc(1vw + 1vh) calc(1.25vw + 2.5vh);
+
   border-radius: 10%;
   text-decoration: none;
 
@@ -292,11 +294,11 @@ main {
 }
 
 .nativeBtn p {
-  width: 15vw;
+  width: calc(7.5vw + 10vh);
   color: #fff;
   text-align: center;
   text-decoration: none;
-  font-size: 1.5em;
+  font-size: calc(1vw + 1vh);
   padding: 0 !important;
 }
 
@@ -307,7 +309,7 @@ main {
 .nativeBtn:hover p {
   width: 20vw;
   font-weight: bold;
-  font-size: 2em;
+  font-size: calc(1.25vw + 1.25vh);
 }
 
 #owlBtn {
@@ -328,6 +330,18 @@ main {
 #moleBtn {
   background-image: linear-gradient(0deg, #00000080 0%, #00000080 100%),
     url("../assets/mole.jpg");
+}
+
+form,
+.form {
+  width: 100vw;
+  padding: 0 10vw;
+
+  background-color: #fff;
+}
+
+.form {
+  margin: 0;
 }
 
 .jsonResult {
