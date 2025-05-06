@@ -85,6 +85,85 @@
     </p>
     <h2 id="storyTitle"></h2>
     <p id="storyText"></p>
-    <script src="js/native.js"></script>
+
+    <h2>Which Apache Spirit are you most like?</h2>
+    <p>
+      After reading the stories above, you may be wondering which spirit you
+      share the most with. Well, good news! Here, we have a patented,
+      100%-accurate quiz to determine just that! Click the selections below and
+      when you're done, click the button below to see which spirit you are like.
+    </p>
+
+    <form>
+      <div class="question" id="question1">
+        <h4>You have work to do. How do you tackle it?</h4>
+        <div class="answers">
+          <label class="answer">
+            <input type="checkbox" id="answer11" />
+            a. I look for the quickest way to get it done.
+          </label>
+          <label class="answer">
+            <input type="checkbox" id="answer12" />
+            b. I do it by the book, the exact way I've been taught.
+          </label>
+          <label class="answer">
+            <input type="checkbox" id="answer13" />
+            c. I look for what gets the job done in a way that makes all parties
+            happy.
+          </label>
+        </div>
+      </div>
+
+      <div class="question" id="question2">
+        <h4>You get a suspicious phone call. What's your move?</h4>
+        <div class="answers">
+          <label class="answer">
+            <input type="checkbox" id="answer21" />
+            a. I hang up the phone and don't bother.
+          </label>
+          <label class="answer">
+            <input type="checkbox" id="answer22" />
+            b. I draw it out and stall the scammer.
+          </label>
+          <label class="answer">
+            <input type="checkbox" id="answer23" />
+            c. I'm the one making the call.
+          </label>
+        </div>
+      </div>
+
+      <div class="question" id="question2">
+        <h4>
+          Someone dropped their AirPods. You pick them up, what do you do next?
+        </h4>
+        <div class="answers">
+          <label class="answer">
+            <input type="checkbox" id="answer31" />
+            a. Free AirPods!
+          </label>
+          <label class="answer">
+            <input type="checkbox" id="answer32" />
+            b. Look for someone at a desk to turn it into.
+          </label>
+          <label class="answer">
+            <input type="checkbox" id="answer33" />
+            c. This is my moment. We're pulling out Find My and searching for
+            this person.
+          </label>
+        </div>
+      </div>
+
+      <button id="submit" type="button">Submit Answers</button>
+    </form>
+    <h2 id="result"></h2>
+    <div class="results">
+      <p id="owlResult">Owl: 0%</p>
+      <p id="woodpeckerResult">Woodpecker: 0%</p>
+      <p id="coyoteResult">Coyote: 0%</p>
+      <p id="moleResult">Mole: 0%</p>
+    </div>
+
+    <div id="results"></div>
+    <script type="module" src="js/native.js"></script>
   </body>
 </html>

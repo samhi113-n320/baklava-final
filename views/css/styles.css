@@ -15,6 +15,7 @@ html,
 body {
   height: 100%;
   background-color: #da7;
+  color: #443311;
   overflow-x: hidden;
 }
 
@@ -204,7 +205,6 @@ main {
 
 #figures ul {
   margin-top: 6px;
-  color: white;
   padding-left: 72px;
   margin-bottom: 12px;
 }
@@ -231,7 +231,6 @@ main {
 }
 
 .img-gallery span {
-  color: white;
   background: #fa4;
   font-size: 48px;
   width: 60px;
@@ -266,7 +265,6 @@ main {
   top: 5%;
   right: 5%;
   font-size: 30px;
-  color: white;
   cursor: pointer;
 }
 
@@ -330,6 +328,21 @@ main {
 #moleBtn {
   background-image: linear-gradient(0deg, #00000080 0%, #00000080 100%),
     url("../assets/mole.jpg");
+}
+
+.jsonResult {
+  width: 80vw;
+  padding: 0 10vw;
+  display: flex;
+}
+
+.jsonResult * {
+  width: fit-content;
+  padding: 10px 1vw;
+}
+
+.myResult {
+  background-color: #44331180;
 }
 
 /* Footer (if needed) */

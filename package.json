@@ -19,6 +19,7 @@
     "wndev": "set PORT=3008 && nodemon server.js"
   },
   "dependencies": {
+    "firebase": "^11.6.1",
     "jspdf": "^3.0.1",
     "mime-types": "^3.0.1"
   },
