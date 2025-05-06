@@ -54,6 +54,32 @@ p {
   margin-bottom: 16px;
 }
 
+/* Ensure consistent background for Greek Mythology page */
+body.greek-page {
+  background-image: url("../assets/greekBackground.jpg"); /* Replace with the actual Greek-themed background image */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+/* Header styling for Greek Mythology */
+body.greek-page .header {
+  background-color: rgba(255, 170, 68, 0.8); /* Semi-transparent header background */
+  color: #443311;
+  padding: 30px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+/* Content styling for Greek Mythology */
+body.greek-page .content {
+  background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent content background */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin: 20px;
+}
+
 /* Nav Section */
 
 nav {
