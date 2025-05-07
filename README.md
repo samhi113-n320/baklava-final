@@ -14,6 +14,10 @@ Our project is a website about the general information of three different mythol
   - Creating a functioning server with the express module
   - Serving different content dynamically
   - Uploading the web server to a student's port to host the website
+- Database work with Firebase
+  - Document Creation
+  - Document Reading
+  - JSON parsing/manipulation
 - Frontend Module Implementation
   - Creating modular JavaScript files to handle interaction on separate pages
     - Using these files to include interactive tools to help make the website more engaging
@@ -61,6 +65,27 @@ Intractability:
 - Buttons under each section that provide summarized information on the following topics:
   - Characters
   - Stories
+
+### Native Legend Page
+
+#### This page has information relating to Apache legends and spirits. This includes:
+
+- Several Spirits
+- Multiple Legends of Apache origin
+- "Which Spirit Are You?" Quiz
+
+#### Interactibility:
+
+- Buttons for spirits pull up a legend for selected spirit.
+- Quiz
+  - Checkboxes for multiple selections
+    - Allows for more personalized answers or
+    - Possible selections based on context
+  - Submit Button
+  - Browser Prompting
+    - Save or not
+    - Name for display
+  - Firebase/Firestore DB Storage/Reading
 
 ### Design Choices
 
